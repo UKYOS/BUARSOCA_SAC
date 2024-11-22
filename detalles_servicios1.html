@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Servicios</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="assets/js/graficos.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">GRUPO GALU</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" id="home-link">Inicio</a></li>
+          <li><a href="index.html#about">Sobre nosotros</a></li>
+          <li><a href="index.html#services">Servicios</a></li>
+          <li class="dropdown"> 
+            <a href="#"><span>Lista De Servicios</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul class="dropdown-menu compact-menu">
+                <li><a href="detalles_servicios1.html">SERVICIOS MEDIOAMBIENTALES Y DE SANEAMIENTO</a></li>
+                <li><a href="detalles_servicios2.html">ARQUITECTURA DE COMUNICACIONES</a></li>
+                <li><a href="detalles_servicios3.html">SERVICIOS DE INGENIERÍA ELÉCTRICA DE POTENCIA..</a></li>
+                <li><a href="detalles_servicios4.html">MANTENIMIENTO INDUSTRIAL</a></li>
+                <li><a href="detalles_servicios5.html">LOGÍSTICA MULTIMODAL</a></li>
+                <li><a href="detalles_servicios6.html">SERVICIOS DE PLANIFICACIÓN Y DISEÑO DE PLANOS</a></li>
+            </ul>
+        </li>
+         
+          <li><a href="index.html#contact">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Empezar</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">INICIO</a></li>
+            <li class="current">DETALLES DE SERVICIOS</li>
+          </ol>
+        </nav>
+        <h1>SERVICIOS MEDIOAMBIENTALES Y DE SANEAMIENTO</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="services-list">
+              <a href="#" class="active" onclick="showServiceDetails('web-design')">Sistemas de Depuración de Aguas Residuales</a>
+              <a href="#" class="active" onclick="showServiceDetails('software-development')">Servicios de Análisis Físico-Químico</a>
+              <a href="#" class="active" onclick="showServiceDetails('product-management')">Supervisión de Calidad de Aguas Afluentes y Efluentes</a>
+              <a href="#" class="active" onclick="showServiceDetails('graphic-design')">Optimización del Proceso de Tratamiento de Aguas Residuales</a>
+              <a href="#" class="active" onclick="showServiceDetails('marketing')">Restauración y Remediación de Espejos de Agua</a>
+              <a href="#" class="active" onclick="showServiceDetails('evaluacion')">Evaluación y Bioremediación de Cuerpos de Agua</a>
+              <a href="#" class="active" onclick="showServiceDetails('biological-optimization')">Optimización Biológica de Procesos de Tratamiento de Aguas</a>
+
+            </div>
+
+            <h4>Porque quien los elige en las cosas</h4>
+            <p>"Purificando el presente, preservando el futuro: Innovación y compromiso en el tratamiento de aguas."</p>
+          </div>
+<!-- Crear scrip para mostrar el div segun lo seleccionado--> 
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+            <div id="web-design" class="service-content">
+              <h2>Sistemas de Depuración de Aguas Residuales</h2>
+              <p>
+                En <strong>GRUPO GALU</strong>, nos especializamos en el tratamiento y depuración de aguas residuales, asegurando que los cuerpos de agua mantengan su calidad y equilibrio ambiental. Nuestros sistemas están diseñados para eliminar eficazmente contaminantes y minerales nocivos como calcio, hierro, potasio, magnesio y sodio, que pueden afectar la salud del ecosistema acuático y la seguridad del agua para usos humanos.
+              </p>
+              <h3>¿Por qué es importante la depuración de aguas residuales?</h3>
+              <div style="border: 2px solid #007bff; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+                <p><strong>Preservación de la vida acuática:</strong> La contaminación del agua puede causar la muerte de peces y otros organismos, como se ha observado en casos de desequilibrio ambiental en cuerpos de agua como las represas.</p>
+                <p><strong>Garantía de calidad del agua:</strong> Nuestros sistemas aseguran que el agua tratada cumpla con los estándares de calidad establecidos, protegiendo la salud pública y apoyando actividades económicas locales como la piscicultura y el turismo.</p>
+                <p><strong>Cumplimiento con normativas ambientales:</strong> Nos alineamos con las normativas y estudios recientes para implementar soluciones de depuración que son eficientes y sostenibles.</p>
+              </div>
+              <div class="graph-container">
+                <h2 style="text-align: center;">Gráfico De Depuración de Aguas Residuales</h2>
+                <canvas id="lineChart" width="400" height="200"></canvas>
+
+            </div>
+              <h3>Nuestros servicios incluyen:</h3>
+              <div style="border: 2px solid #007bff; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+                <p><strong>Evaluación de la calidad del agua:</strong> Realizamos estudios detallados para identificar los contaminantes presentes en las aguas residuales.</p>
+                <p><strong>Diseño y instalación de sistemas de depuración:</strong> Adaptamos nuestras soluciones a las necesidades específicas de cada cliente, utilizando tecnología de punta para asegurar una depuración eficiente.</p>
+                <p><strong>Monitoreo y mantenimiento:</strong> Ofrecemos servicios continuos para garantizar que los sistemas de depuración operen de manera óptima y que el agua tratada se mantenga dentro de los parámetros de seguridad y calidad.</p>
+              </div>
+              <p>En <strong>GRUPO GALU</strong>, estamos comprometidos con la protección del medio ambiente y la promoción de un desarrollo sostenible a través de soluciones innovadoras y efectivas para el tratamiento de aguas residuales.</p>
+              
+            </div>
+            
+            
+
+            <div id="software-development" class="service-content">
+              <h2>Servicios de Análisis Físico-Químico</h2>
+              <p>
+                En <strong>GRUPO GALU</strong>, ofrecemos servicios especializados en análisis físico-químico de muestras de agua, enfocados en la evaluación de la calidad del agua en diversos sectores, incluyendo efluentes industriales y cuerpos de agua naturales. Nuestros servicios están diseñados para garantizar que las muestras analizadas cumplan con los estándares ambientales y de salud pública establecidos.
+              </p>
+              <h3>¿Por qué elegir nuestros servicios de análisis físico-químico?</h3>
+              <div style="border: 2px solid #28a745; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+                <p><strong>Precisión y fiabilidad:</strong> Utilizamos equipos de última generación y técnicas avanzadas para garantizar la precisión y fiabilidad en los resultados de nuestros análisis.</p>
+                <p><strong>Certificaciones y cumplimiento normativo:</strong> Estamos certificados por entidades reconocidas y cumplimos con normativas internacionales como la ISO 9001:2008 e ISO 14001:2004, asegurando que nuestros servicios cumplen con los más altos estándares de calidad.</p>
+                <p><strong>Adaptabilidad a diversas industrias:</strong> Nuestros análisis físico-químicos son aplicables a una amplia variedad de sectores, incluyendo industrial, agrícola y ambiental, adaptándonos a las necesidades específicas de cada cliente.</p>
+              </div>
+              <div class="graph-container">
+                <h2 style="text-align: center;">Gráfico De Análisis Físico-Químico</h2>
+                <canvas id="myChart" width="400" height="200"></canvas>
+            </div>
+              <h3>Nuestros servicios incluyen:</h3>
+              <div style="border: 2px solid #28a745; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+                <p><strong>Monitoreo de calidad del agua:</strong> Realizamos monitoreos continuos para evaluar la calidad del agua en diferentes puntos de control, asegurando la detección temprana de posibles contaminantes.</p>
+                <p><strong>Análisis de efluentes industriales:</strong> Evaluamos las características físico-químicas de los efluentes industriales para garantizar el cumplimiento de las normativas ambientales.</p>
+                <p><strong>Estudios de impacto ambiental:</strong> Apoyamos proyectos de impacto ambiental proporcionando análisis detallados que permiten tomar decisiones informadas en la gestión ambiental.</p>
+                <p>En <strong>GRUPO GALU</strong>, estamos dedicados a ofrecer servicios de análisis físico-químico de alta calidad, contribuyendo al desarrollo sostenible y la protección del medio ambiente.</p>
+              </div>
+             
+            </div>
+
+            <div id="product-management" class="service-content" style="display:none;">
+              <h2>Supervisión de Calidad de Aguas Afluentes y Efluentes</h2>
+              <p>
+                En <strong>GRUPO GALU</strong>, ofrecemos servicios de supervisión exhaustiva de la calidad de aguas afluentes y efluentes. Nuestros servicios están diseñados para garantizar que las aguas tratadas y descargadas cumplan con las normativas ambientales y protejan tanto la salud pública como el medio ambiente.
+              </p>
+              <h3>¿Por qué es importante la supervisión de calidad de aguas?</h3>
+              <div style="border: 2px solid #ffc107; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+                <p><strong>Monitoreo continuo:</strong> Utilizamos equipos avanzados, como el ALTAIR 5X, para realizar monitoreos continuos en estaciones de bombeo de aguas residuales, asegurando la detección y control de contaminantes.</p>
+                <p><strong>Evaluación de gases tóxicos:</strong> Controlamos la presencia de gases tóxicos como el amoníaco (NH3) y el sulfuro de hidrógeno (H2S) para garantizar que se mantengan dentro de los límites permitidos.</p>
+                <p><strong>Mitigación de riesgos ambientales:</strong> Nuestra supervisión ayuda a mitigar riesgos ambientales, asegurando que las descargas de efluentes no afecten negativamente el entorno natural.</p>
+              </div>
+              <div class="graph-container">
+                <h2 style="text-align: center;">Gráfica de Calidad de Aguas Afuentes y Efluentes</h2>
+                <canvas id="doughnutChart" width="400" height="200"></canvas>
+            </div>
+              <h3>Nuestros servicios incluyen:</h3>
+              <div style="border: 2px solid #ffc107; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+                <p><strong>Monitoreo de calidad del aire y agua:</strong> Realizamos monitoreos exhaustivos en estaciones de bombeo y plantas de tratamiento para garantizar que los niveles de contaminantes se mantengan dentro de los parámetros establecidos.</p>
+                <p><strong>Instalación de cercos verdes:</strong> Implementamos cercos verdes en las estaciones de bombeo para mejorar la calidad del aire y reducir los malos olores en zonas industriales.</p>
+                <p><strong>Gestión de lodos residuales:</strong> Supervisamos la eliminación segura de lodos residuales para garantizar que no representen un riesgo para el medio ambiente ni para la salud de los trabajadores.</p>
+                <p>En <strong>GRUPO GALU</strong>, estamos comprometidos con la protección del medio ambiente y la seguridad pública a través de una supervisión rigurosa y efectiva de la calidad de aguas afluentes y efluentes.</p>
+              </div>
+              
+            </div>
+            
+
+            <div id="graphic-design" class="service-content" style="display:none;">
+              <h2>Optimización del Proceso de Tratamiento de Aguas Residuales</h2>
+              <p>
+                En <strong>GRUPO GALU</strong>, nos enfocamos en la optimización de procesos para el tratamiento de aguas residuales, garantizando que las plantas de tratamiento operen de manera eficiente y cumplan con los más altos estándares ambientales. Nuestra experiencia y tecnología avanzada nos permiten mejorar significativamente la calidad del agua tratada, reduciendo contaminantes y asegurando la sostenibilidad del proceso.
+              </p>
+              <h3>¿Por qué optimizar los procesos de tratamiento de aguas residuales?</h3>
+              <div style="border: 2px solid #dc3545; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+                <p><strong>Mejora en la eficiencia:</strong> Implementamos soluciones que optimizan el uso de recursos y energía en el tratamiento de aguas residuales, lo que resulta en una mayor eficiencia operativa.</p>
+                <p><strong>Reducción de contaminantes:</strong> Utilizamos catalizadores biológicos como ENZYMPLUS que permiten la eliminación eficiente de contaminantes, mejorando la calidad del agua tratada.</p>
+                <p><strong>Sostenibilidad y cumplimiento normativo:</strong> Nuestras optimizaciones no solo mejoran el desempeño de las plantas de tratamiento, sino que también aseguran el cumplimiento con normativas ambientales, promoviendo un desarrollo sostenible.</p>
+              </div>
+              <div class="graph-container">
+                <h2 style="text-align: center;">Gráfico De Evolución del Proceso de Tratamiento de Aguas Residuales</h2>
+                <canvas id="myNewChart" width="400" height="200"></canvas>
+            
+            </div>
+              <h3>Nuestros servicios incluyen:</h3>
+              <div style="border: 2px solid #dc3545; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+                <p><strong>Evaluación de procesos actuales:</strong> Analizamos los procesos existentes en las plantas de tratamiento para identificar oportunidades de mejora en la eficiencia y reducción de contaminantes.</p>
+                <p><strong>Aplicación de catalizadores biológicos:</strong> Implementamos catalizadores biológicos avanzados como ENZYMPLUS, que han demostrado ser altamente efectivos en la eliminación de gases tóxicos y en la mejora de la calidad del agua.</p>
+                <p><strong>Monitoreo y ajuste continuo:</strong> Ofrecemos servicios de monitoreo continuo para asegurar que las optimizaciones se mantengan efectivas a lo largo del tiempo y que los procesos de tratamiento operen al máximo rendimiento.</p>
+                <p>En <strong>GRUPO GALU</strong>, estamos comprometidos con la innovación y la eficiencia en el tratamiento de aguas residuales, proporcionando soluciones que contribuyen al cuidado del medio ambiente y al bienestar de la comunidad.</p>
+              </div>
+            
+            </div>
+            
+          <div id="marketing" class="service-content" style="display:none;">
+            <h2>Restauración y Remediación de Espejos de Agua</h2>
+            <p>
+              En <strong>GRUPO GALU</strong>, nos especializamos en la restauración y remediación de espejos de agua, tales como lagos, lagunas y embalses, que han sido afectados por la contaminación y otros factores ambientales adversos. Nuestro enfoque se basa en la aplicación de tecnologías avanzadas y prácticas sostenibles que permiten recuperar estos ecosistemas acuáticos y devolverles su equilibrio natural.
+            </p>
+            <h3>¿Por qué es importante la restauración de espejos de agua?</h3>
+            <div style="border: 2px solid #6c757d; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+              <p><strong>Recuperación de ecosistemas:</strong> La restauración de espejos de agua es esencial para la recuperación de la biodiversidad y el restablecimiento de las funciones ecológicas que estos cuerpos de agua desempeñan en el medio ambiente.</p>
+              <p><strong>Mejora de la calidad del agua:</strong> Nuestras técnicas de remediación eliminan contaminantes y mejoran la calidad del agua, lo que es crucial para el sustento de la vida acuática y para usos recreativos y económicos.</p>
+              <p><strong>Prevención de futuros daños:</strong> Implementamos estrategias sostenibles que no solo restauran los espejos de agua, sino que también previenen su degradación futura, asegurando su preservación a largo plazo.</p>
+            </div>
+            <div class="graph-container">
+              <h2 style="text-align: center;">Crecimiento de la Restauración y Remediación de Espejos de Agua</h2>
+              <canvas id="restorationChart" width="400" height="200"></canvas>
+          </div>
+            <h3>Nuestros servicios incluyen:</h3>
+            <div style="border: 2px solid #6c757d; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+              <p><strong>Evaluación ambiental inicial:</strong> Realizamos evaluaciones exhaustivas para determinar el estado de los espejos de agua y los factores que han contribuido a su degradación.</p>
+              <p><strong>Aplicación de técnicas de bioremediación:</strong> Utilizamos métodos de bioremediación que involucran el uso de organismos vivos para eliminar contaminantes y restaurar el equilibrio ecológico del agua.</p>
+              <p><strong>Monitoreo post-restauración:</strong> Ofrecemos servicios de monitoreo continuo para asegurar que los espejos de agua restaurados mantengan su calidad y equilibrio a lo largo del tiempo.</p>
+              <p>En <strong>GRUPO GALU</strong>, estamos comprometidos con la recuperación y protección de los espejos de agua, contribuyendo a la sostenibilidad ambiental y al bienestar de las comunidades que dependen de estos recursos hídricos.</p>
+            </div>
+          
+          </div>
+
+
+          <div id="evaluacion" class="service-content" style="display:none;">
+            <h2>Evaluación y Bioremediación de Cuerpos de Agua</h2>
+            <p>
+              En <strong>GRUPO GALU</strong>, nos especializamos en la evaluación y bioremediación de cuerpos de agua afectados por la contaminación y otros factores ambientales. Nuestra misión es restaurar estos ecosistemas acuáticos, utilizando tecnologías innovadoras y enfoques sostenibles para eliminar contaminantes y mejorar la calidad del agua.
+            </p>
+            <h3>¿Por qué es importante la bioremediación de cuerpos de agua?</h3>
+            <div style="border: 2px solid #17a2b8; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+              <p><strong>Restauración ecológica:</strong> La bioremediación es una técnica esencial para restaurar la salud y el equilibrio ecológico de cuerpos de agua contaminados, permitiendo la recuperación de la biodiversidad y el funcionamiento adecuado del ecosistema.</p>
+              <p><strong>Reducción de contaminantes:</strong> Utilizamos organismos vivos, como bacterias y plantas acuáticas, que tienen la capacidad de degradar y eliminar contaminantes, mejorando significativamente la calidad del agua.</p>
+              <p><strong>Soluciones sostenibles:</strong> La bioremediación es una alternativa ecológica a los métodos convencionales de limpieza, ofreciendo una solución sostenible que protege el medio ambiente a largo plazo.</p>
+            </div>
+            <div class="graph-container">
+              <h2 style="text-align: center;">Gráfica de Evaluación y Biorremediación de Cuerpos de Agua</h2>
+              <canvas id="bioremediationChart" width="400" height="200"></canvas>
+          </div>
+            <h3>Nuestros servicios incluyen:</h3>
+            <div style="border: 2px solid #17a2b8; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+              <p><strong>Evaluación integral de cuerpos de agua:</strong> Realizamos evaluaciones detalladas para determinar los niveles de contaminación y las necesidades específicas de bioremediación en cada cuerpo de agua.</p>
+              <p><strong>Aplicación de técnicas de bioremediación:</strong> Implementamos técnicas biológicas avanzadas para tratar el agua contaminada, restaurando su calidad y funcionalidad ecológica.</p>
+              <p><strong>Monitoreo y mantenimiento:</strong> Ofrecemos servicios de monitoreo continuo para asegurar que las mejoras alcanzadas mediante la bioremediación se mantengan a lo largo del tiempo.</p>
+              <p>En <strong>GRUPO GALU</strong>, estamos dedicados a proteger y recuperar los cuerpos de agua, asegurando su sostenibilidad y la salud del medio ambiente para las futuras generaciones.</p>
+            </div>
+            
+          </div>
+
+          <div id="biological-optimization" class="service-content" style="display:none;">
+            <h2>Optimización Biológica de Procesos de Tratamiento de Aguas</h2>
+            <p>
+              En <strong>GRUPO GALU</strong>, nos especializamos en la optimización biológica de los procesos de tratamiento de aguas, implementando soluciones naturales y sostenibles que incrementan la eficiencia y eficacia de las plantas de tratamiento. Nuestro enfoque biológico permite una mejor degradación de contaminantes, reduciendo el impacto ambiental de las operaciones.
+            </p>
+            <h3>¿Por qué es importante la optimización biológica?</h3>
+            <div style="border: 2px solid #28a745; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+              <p><strong>Mejora de la eficiencia del tratamiento:</strong> La optimización biológica aumenta la capacidad de las plantas de tratamiento para eliminar contaminantes, utilizando microorganismos que degradan eficientemente las sustancias tóxicas.</p>
+              <p><strong>Reducción del uso de productos químicos:</strong> Con soluciones biológicas, se disminuye la dependencia de productos químicos agresivos, promoviendo un proceso más ecológico y seguro.</p>
+              <p><strong>Sostenibilidad y cumplimiento ambiental:</strong> Nuestras soluciones biológicas están diseñadas para cumplir con normativas ambientales rigurosas, asegurando un tratamiento del agua eficiente y sostenible.</p>
+            </div>
+            <h3>Nuestros servicios incluyen:</h3>
+            <div style="border: 2px solid #28a745; padding: 15px; border-radius: 5px; background-color: #f9f9f9;">
+              <p><strong>Evaluación de procesos de tratamiento:</strong> Analizamos los procesos existentes en las plantas de tratamiento para identificar oportunidades de optimización biológica que mejoren la eficiencia y reduzcan el impacto ambiental.</p>
+              <p><strong>Aplicación de soluciones biológicas:</strong> Implementamos microorganismos específicos y otras soluciones biológicas que mejoran el proceso de tratamiento de aguas, asegurando la eliminación de contaminantes de manera natural y eficiente.</p>
+              <p><strong>Monitoreo y ajuste continuo:</strong> Ofrecemos servicios de monitoreo continuo para garantizar que los procesos optimizados mantengan su eficacia a lo largo del tiempo y que las plantas de tratamiento operen a su máxima capacidad.</p>
+              <p>En <strong>GRUPO GALU</strong>, estamos comprometidos con la innovación y sostenibilidad en el tratamiento de aguas, proporcionando soluciones biológicas que mejoran la eficiencia y protegen el medio ambiente.</p>
+            </div>
+            <div class="graph-container">
+              <h2 style="text-align: center;">Crecimiento de la Optimización Biológica de Procesos de Tratamiento de Aguas</h2>
+              <canvas id="optimizationChart" width="400" height="200"></canvas>
+          </div>
+          </div>
+          
+          
+
+          <script>
+            function showServiceDetails(serviceId) {
+              var contents = document.getElementsByClassName('service-content');
+              for (var i = 0; i < contents.length; i++) {
+                contents[i].style.display = 'none';
+              }
+              document.getElementById(serviceId).style.display = 'block';
+            }
+          </script>
+        </div>
+      </div>
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">BSA</strong> <span>Todos los derechos reservados</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        
+        Diseñado por <a href="">Grupo BSA</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
